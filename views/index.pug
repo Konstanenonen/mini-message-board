@@ -3,3 +3,9 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  div.message-area
+    each message in messages
+      div.message-card
+        p= message.text
+        p= '-' + message.user
+        p= message.added
