@@ -6,6 +6,6 @@ block content
   div.message-area
     each message in messages
       div.message-card
-        p= message.text
-        p= '-' + message.user
         p= message.added
+        p.message-text= message.text
+        p.message-user= '-' + message.user

@@ -20,3 +20,11 @@ a {
   border-radius: 15px;
   padding: 10px 25px;
 }
+
+.message-text {
+  font-size: 1.3rem;
+}
+
+.message-user {
+  font-weight: bold;
+}
